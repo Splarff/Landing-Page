@@ -10,10 +10,20 @@ body {
     padding-bottom: 80px;
 }
 
-ul {
+.header .p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul,
+a {
     display:flex;
     list-style-type: none;
-    gap: 16px
+    gap: 16px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
 
 }
 
@@ -51,4 +61,62 @@ button {
     border-radius: 4px;
     padding: 4px 8px 4px 8px;
     
+}
+
+.welcome {
+    max-width: 320px;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.welcome p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding-left:128px;
+    padding-right:128px;
+    padding-bottom: 64px;
+}
+
+.section-two h1 {
+align-self: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border: #1F2937;
+    border: 2px;
+    border-style: solid;
+}
+
+.section-three {
+    flex-direction: column;
+    padding-left:228px;
+    padding-right:228px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
 }
