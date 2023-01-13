@@ -39,6 +39,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding-bottom: 128px;
+    flex: 1;
 }
 
 .img {
@@ -83,7 +84,9 @@ button {
     flex-direction: column;
     padding-left:128px;
     padding-right:128px;
-    padding-bottom: 64px;
+    padding-bottom: 128px;
+    padding-top:128px;
+    flex: 1;
 }
 
 .section-two h1 {
@@ -106,8 +109,6 @@ align-self: center;
 
 .section-three {
     flex-direction: column;
-    padding-left:228px;
-    padding-right:228px;
     padding-top: 64px;
     padding-bottom: 64px;
     display: flex;
@@ -115,8 +116,66 @@ align-self: center;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.quote {
+    width: 500px;
 }
 
 .author {
-    align-self: flex-end;
+    align-self:center;
+    padding-left: 200px;
+    font-weight: 700;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+}
+
+.endcard {
+    background-color: #3882F6;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.endcard button {
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: 900; 
+    color:white;
+}
+
+.action {
+    font-size: 18px;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
